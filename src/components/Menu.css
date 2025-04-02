@@ -1,0 +1,51 @@
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 200px;
+    z-index: 1000;
+  }
+  
+  .profile-dropdown p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .logout-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #f55540;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d94332;
+  }
+  
