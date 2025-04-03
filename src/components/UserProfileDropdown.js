@@ -28,7 +28,7 @@ const UserProfileDropdown = () => {
 
   const fetchUserDetails = async () => {
     try {
-      const { data } = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/user`, { withCredentials: true });
+      const { data } = await axios.get(`${process.env.REACT_APP_BACKEND_URL}user`, { withCredentials: true });
       if (data.success && data.user) {
         setUserData(data.user);
       }
